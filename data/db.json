@@ -1,0 +1,84 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    },
+    {
+      "id": 2,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    },
+    {
+      "id": 3,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    },
+    {
+      "id": 4,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    },
+    {
+      "id": 5,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    },
+    {
+      "id": 6,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    },
+    {
+      "id": 7,
+      "nombre": "Incienso Ámbar Afrodisíaco",
+      "precio": "800",
+      "stock": "10",
+      "marca": "Generico",
+      "categoria": "Generico",
+      "detalles": "Incienso Ámbar Afrodisíaco Turquía Premium 100gr Pacha Kuyuy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_2X_732538-MLA44390562902_122020-F.webp",
+      "envio": false
+    }
+  ],
+  "carrito": [
+    []
+  ]
+}
