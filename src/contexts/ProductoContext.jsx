@@ -7,7 +7,8 @@ const ProductoContext = createContext()
 
 /* 2do -> El armado del Provider */
 //const url = 'https://652dcd75f9afa8ef4b27cf76.mockapi.io/carrito/'
-const url = 'http://localhost:8080/api/productos/'
+//const url = 'http://localhost:8080/api/productos/'
+const url = 'https://back-integrador.onrender.com/api/productos'
 
 const ProductoProvider = ({ children }) => {
     const [productos, setProductos] = useState(null)
