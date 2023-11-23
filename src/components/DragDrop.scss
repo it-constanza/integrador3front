@@ -1,9 +1,14 @@
+@import "/src/styles/colores.scss";
+
 .drop-area {
-    border: 2px dashed #ccc;
+    display: flex;
+    flex-direction: column;
+    border: 4px dashed $color-gris;
     border-radius: 20px;
     width: 300px;
     margin: 1px;
     padding: 20px;
+    vertical-align: middle;
 
     & p {
         margin: 30px;
@@ -11,12 +16,14 @@
 
     &-button {
         display: inline-block;
+        align-self: center;
         padding: 10px;
-        background-color: #ccc;
+        background-color: $color-gris;
         cursor: pointer;
         border-radius: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid $color-gris;
         margin-bottom: 30px;
+
     }
 
     & #lbl-foto {

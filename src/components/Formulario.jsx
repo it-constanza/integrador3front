@@ -94,19 +94,21 @@ const Formulario = ({ productoAEditar, setProductoAEditar }) => {
             <input type="text" name="detalles" id="lbl-detalles" value={form.detalles} onChange={handleChange} />
           </div>
 
-          <div className='lblinput'>
+          <div className="lblinput">
             <label htmlFor="lbl-envio">Envío</label>
             <input type="checkbox" name="envio" id="lbl-envio" checked={form.envio} onChange={handleChange} />
           </div>
         </div>
 
-        <DragDrop className='dragdrop'
+        <DragDrop className="dragdrop"
           setFoto={setFoto}
           setSrcImagen={setSrcImagen}
           srcImagen={srcImagen} />
 
-        <button type="submit">Guardar</button>
-        <button type="reset" onClick={handleReset}>Limpiar</button>
+        <div className="botones">
+          <button type="submit">Guardar</button>
+          <button type="reset" onClick={handleReset}>Limpiar</button>
+        </div>
       </form>
     </>
   )
