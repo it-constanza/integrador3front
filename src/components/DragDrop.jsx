@@ -59,7 +59,7 @@ const DragDrop = ({ setFoto, setSrcImagen, srcImagen }) => {
 
     try {
       formData.append('foto', file)
-      const imagenUp = await post('https://back-integrador.onrender.com/api/upload', formData)
+      const imagenUp = await post('https://back-integrador.onrender.com/api/upload/', formData)
       setFoto(imagenUp)
     } catch (error) {
       console.error('[uploadFile]:', error)
