@@ -1,154 +1,75 @@
 @import "/src/styles/colores.scss";
 
-.ctcform {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 5px;
+h1 {
+    color: $color-gris1
+}
 
-    fieldset {
-        padding: 10px;
-        border-color: $color-rosa1;
-    }
-
+h3 {
+    color: $color-gris1;
 }
 
 .form {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 3em;
 
-    background-color: $color-rosa1;
+    padding: 2px;
     color: $color-gris1;
 
     &__fieldset {
-        margin: 0.5em;
-        padding: 0.5em;
         display: flex;
-        align-items: stretch;
-        align-content: stretch;
-        justify-content: center;
+        justify-content: space-around;
+        margin: 2px;
+        padding: 2px;
+
+
     }
 
-    &__label {
+    &__legend {
+        padding: 5px;
+        font-weight: 700;
         color: $color-gris1;
-        margin: 0.5em;
-        padding: 0.5em;
-
-        span {
-            display: block;
-            margin: 0.5em;
-        }
-
-
+        text-decoration: underline;
     }
 
     &__inputlabel {
-        margin: 0.1em;
-        padding: 0.1em;
-    }
-
-    &__cbox {
-        margin: 0.5em;
-        padding: 0.5em;
-    }
-
-    &__input {
-        background-color: $color-blanco;
+        margin: 3px;
+        padding: 2px;
     }
 
     &__buttons {
         display: flex;
-        justify-content: center;
-        margin: 0.5em;
-        padding: 0.5em;
-    }
+        flex-direction: column;
+        margin-top: 1em;
 
-    &__button {
         display: flex;
-        height: 3em;
-        margin: 1em;
-        padding: 1em;
-        justify-self: center;
-        align-items: center;
-
     }
 
 }
 
+.ctcform {
 
-@media screen and (min-width: 900px) {
+    padding: 2px;
+    margin: 2px;
+}
 
+.block {
 
+    width: fit-content;
+    margin: 0.5em;
+}
 
-    .ctcform {
-        display: grid;
-        grid-template-columns: 50% 50%;
+fieldset {
+    border: none;
+}
 
-        margin: 10px;
-        padding: 5px;
+.novedades {
 
-        fieldset {
-            padding: 10px;
-            border-color: $color-rosa1;
-        }
+    display: flex;
 
-    }
-
-    .form {
-
-        background-color: $color-rosa1;
-        color: $color-gris1;
-
-        &__fieldset {
-            margin: 0.5em;
-            padding: 0.5em;
-            display: flex;
-            align-items: stretch;
-            align-content: stretch;
-            justify-content: center;
-        }
-
-        &__label {
-            color: $color-gris1;
-            margin: 0.5em;
-            padding: 0.5em;
-
-            span {
-                display: block;
-                margin: 0.5em;
-            }
-
-
-        }
-
-        &__inputlabel {
-            margin: 0.1em;
-            padding: 0.1em;
-        }
-
-        &__cbox {
-            margin: 0.5em;
-            padding: 0.5em;
-        }
-
-        &__input {
-            background-color: $color-blanco;
-        }
-
-        &__buttons {
-            display: flex;
-            justify-content: flex-end;
-            margin: 0.5em;
-            padding: 0.5em;
-        }
-
-        &__button {
-            display: flex;
-            height: 3em;
-            margin: 1em;
-            padding: 1em;
-            justify-self: center;
-            align-items: center;
-
-        }
+    label {
+        width: 100%;
 
     }
 }
