@@ -1,15 +1,19 @@
+@import "../styles/colores.scss";
+
 table.tabla-alta {
     border-collapse: collapse;
     width: 95%;
     margin: 1rem auto;
 
-    th, td {
-        border: 1px solid #ddd;
+    th,
+    td {
+        border: 2px solid $color-gris;
         padding: 8px;
         text-align: left;
+        color: $color-negrovio;
     }
 
     th {
-        background-color: #f2f2f2;
+        background-color: $color-blanco;
     }
 }
