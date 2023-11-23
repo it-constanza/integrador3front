@@ -8,7 +8,7 @@ const CarritoContext = createContext()
 
 //const url = 'https://652dcd75f9afa8ef4b27cf76.mockapi.io/carrito1'
 //const url = 'http://localhost:8080/api/carritos/'
-const url = 'https://back-integrador.onrender.com/api/carritos'
+const url = 'https://back-integrador.onrender.com/api/carritos/'
 
 const CarritoProvider = ({ children }) => {
     const [agregarAlCarrito, eliminarDelCarrito, limpiarCarrito, carrito] = useLocalStorage('carrito', [])
