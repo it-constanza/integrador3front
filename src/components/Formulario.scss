@@ -6,4 +6,39 @@ h3 {
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    width: 6em;
+    display: inline-block;
+
+}
+
+input {
+    height: 2em;
+}
+
+
+.lblinput {
+    margin: 0.5em;
+
+}
+
+#lbl-detalles {
+    height: 5em;
+}
+
+.dragdrop {
+    border: solid black 2px;
+    display: block;
+
 }

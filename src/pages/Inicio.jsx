@@ -11,7 +11,7 @@ const Inicio = () => {
       <section className="section-cards">
         <header className="section-cards__header">
           <h1>Los mejores productos a un click.</h1>
-          <p>Se encontraron X productos</p>
+
         </header>
 
         <div className="cards-container">
