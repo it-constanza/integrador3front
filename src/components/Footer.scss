@@ -15,7 +15,14 @@
     }
 
     &__p {
+        display: flex;
         font-size: small;
+        margin-bottom: 20px;
+        padding: 10px;
+        color: $color-gris1;
+        align-items: center;
+        justify-content: center;
+
     }
 
 }
